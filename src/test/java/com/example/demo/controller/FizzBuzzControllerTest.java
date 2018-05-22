@@ -47,14 +47,7 @@ public class FizzBuzzControllerTest {
         String targetResult = fizzBuzzController.comparator (sourceNum);
 //        assertEquals(String.valueOf(sourceNum),targetResult);
     }
-
-    @Test(expected = RuntimeException.class)
-    public void shouldReturnBuzzWhenGivenTwo () {
-        int sourceNum = 2;
-        String targetResult = fizzBuzzController.comparator (sourceNum);
-        assertEquals(3,targetResult);
-    }
-
+    
 
 
 
