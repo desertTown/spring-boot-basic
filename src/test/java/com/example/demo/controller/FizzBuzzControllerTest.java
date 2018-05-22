@@ -8,7 +8,6 @@ import static org.junit.Assert.*;
 
 public class FizzBuzzControllerTest {
     FizzBuzzController fizzBuzzController;
-
     @Before
     public void init() {
         fizzBuzzController = new FizzBuzzController();
@@ -49,6 +48,12 @@ public class FizzBuzzControllerTest {
 //        assertEquals(String.valueOf(sourceNum),targetResult);
     }
 
+    @Test(expected = RuntimeException.class)
+    public void shouldReturnBuzzWhenGivenTwo () {
+        int sourceNum = 2;
+        String targetResult = fizzBuzzController.comparator (sourceNum);
+        assertEquals(3,targetResult);
+    }
 
 
 
