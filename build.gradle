@@ -39,5 +39,6 @@ sonarqube {
         property "sonar.host.url", "http://ec2-54-222-141-176.cn-north-1.compute.amazonaws.com.cn:9000"
 //		property "http://10.222.38.145:9000"
         property "sonar.projectName", "spring-boot-basic-new"
+		property "sonar.projectKey", "spring-boot-basic-new"
     }
 }
