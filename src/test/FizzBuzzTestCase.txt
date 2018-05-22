@@ -1,0 +1,22 @@
+scenario1:
+    Given: 3
+    When: comparator
+    Then: 返回Fizz
+scenario2:
+    Given: 5
+    When: comparator
+    Then: 返回Buzz
+scenario3:
+    Given: 15
+    When: comparator
+    Then: 返回FizzBuzz
+
+scenario4:
+    Given: 4
+    When: comparator
+    Then: 返回4
+
+scenario5:
+    Given: -1
+    When: comparator
+    Then: throw Exception
