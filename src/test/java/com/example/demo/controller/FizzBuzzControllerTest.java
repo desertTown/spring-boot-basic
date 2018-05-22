@@ -47,7 +47,7 @@ public class FizzBuzzControllerTest {
         String targetResult = fizzBuzzController.comparator (sourceNum);
 //        assertEquals(String.valueOf(sourceNum),targetResult);
     }
-    
+
 
 
 
